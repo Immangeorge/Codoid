@@ -1,0 +1,20 @@
+package com.interview;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Intern{
+    public static boolean duplicate(String text){
+    Set<Character> characters=new HashSet<>();
+    for(char ch: text.toCharArray()){
+        if(characters.contains(ch)) return true;
+        characters.add(ch);
+    }
+    return false;
+}
+public static void main(String[]args){
+    String text = "Summer";
+    System.out.println(duplicate(text));
+    
+}
+}
