@@ -1,0 +1,26 @@
+// METHOD OVERRIDING
+//CLASS1
+package com.interview;
+
+
+public class Sample {
+     public void taxLimit(int Limit) {
+    	 System.out.println("sample "+Limit);
+     }
+}
+
+//CLASS2
+package com.interview;
+
+public class Sample1 extends Sample{
+	
+	public void taxLimit(int Limit) {
+	System.out.println("Sample1"+Limit);
+	super.taxLimit(5500);
+	}
+	public static void main(String[] args) {
+		Sample1 s=new Sample1();
+		s.taxLimit(60000);
+	}
+
+}
