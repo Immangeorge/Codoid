@@ -1,0 +1,8 @@
+/* WRITE A JAVA PROGRAM TO CREATE AND THROW CUSTOM EXCEPTIONS */
+
+public static void add(){
+    throw new arithmetic EXCEPTIONS();
+    public static void main(string[]arg){
+        add();
+    }
+}
