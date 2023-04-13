@@ -1,0 +1,32 @@
+How infinite loop is declared in java?
+Answer:
+ use of for(;;){//your code} in the code.
+ 
+ Example:
+ 
+ package com.interview;
+public class Sample {
+     public static void main(String[] args) {
+	    for (int i = 0; i <=10; i++) {
+	    	System.out.println(i);
+		}	
+	}   
+}
+ 
+
+ use of while(true){//your code} in the code
+ 
+ Example:
+ 
+ package com.interview;
+
+
+public class Sample {
+    public static void main(String[] args) {
+    int i=0;
+	while (i<=10) {
+		  System.out.println(i);
+    i++;
+	}
+	}   
+}
