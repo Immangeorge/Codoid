@@ -1,0 +1,17 @@
+/* demonstrate the method overloading by changing a number of arguments?*/
+
+package org.sample;
+
+public class Test {
+	public void add(int a,int b,int c) {
+		System.out.println(a+b+c);
+	}
+	public void add(int a,int b,int c,int d) {
+		System.out.println(a+b+c+d);
+	}
+	public static void main(String[] args) {
+		Test t=new Test();
+		t.add(11, 22, 33);
+		t.add(22,330, 110, 440);
+	}
+}
