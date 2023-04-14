@@ -1,0 +1,18 @@
+/* demonstrate the method overloading by changing data types? */
+
+package com.interview;
+public class Sample {
+	public void display(int num) {
+		System.out.println(num);
+	}
+	public void display(String str) {
+		System.out.println(str);
+		
+	}
+	
+	  public static void main(String[] args) {
+         Sample s = new Sample();
+         s.display(55);
+         s.display("apple");
+	}
+	} 
